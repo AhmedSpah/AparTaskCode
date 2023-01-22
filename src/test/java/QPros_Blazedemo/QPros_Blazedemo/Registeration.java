@@ -27,6 +27,7 @@ public class Registeration extends Tests {
 			 System.out.println(message);
 			 String expected_message = "Sign up successful.";
 			 Thread.sleep(3000);
+			 //Assert the successfull message is displayed
 			 Assert.assertEquals(message, expected_message);
 			 driver.switchTo().alert().accept();
 		  

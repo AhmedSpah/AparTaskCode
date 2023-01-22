@@ -1,5 +1,6 @@
 package QPros_Blazedemo.QPros_Blazedemo;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,9 +23,12 @@ public class Registeration extends Tests {
 		  //click on signin button in the dialogbox
 			driver.findElement(By.xpath("//button[normalize-space()='Sign up']")).click();
 		  //click ok on the alert pop up
-			Thread.sleep(3000);
-			driver.switchTo().alert().accept();
-			Thread.sleep(3000);
+			 String message = driver.switchTo().alert().getText();
+			 System.out.println(message);
+			 String expected_message = "Sign up successful.";
+			 Thread.sleep(3000);
+			 Assert.assertEquals(message, expected_message);
+			 driver.switchTo().alert().accept();
 		  
 		}
 

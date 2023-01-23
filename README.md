@@ -6,4 +6,5 @@ This a UI Automation framework using Selenium WebDriver with Java, TestNG and Ma
 4) Remove item from cart 
 5) Complete successful checkout with random item
 
-I have used a POM design pattern for automation the test cases so we can update any of them sepratelly and can run them sepratelly too.
+I have used a POM design pattern for automation the test cases so we can update any of them without need to update thw whole test cases.
+All test cases can be run from the file Tests.java in the SRC folder

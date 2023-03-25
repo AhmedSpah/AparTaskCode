@@ -20,52 +20,30 @@ public class Tests {
 public	WebDriver driver;
 	
   @Test(priority = 1)
-  public void Register() throws Throwable {
+  public void SelectPackageKSA() {
 	  
-	  Registeration register = new Registeration();
-	  register.RegisterPage(driver);
+	  SelectPackageKSA KSA = new SelectPackageKSA();
+	  KSA.selectPackageKsa(driver);
 		
   }
   
   @Test(priority = 2)
-  public void Login() throws Throwable {
+  public void SelectPackageKU() {
 	  
-	  Login login = new Login();
-	  login.LoginPage(driver);
+	  SelectPackageKuwait kuwait = new SelectPackageKuwait();
+	  kuwait.selectPackageKu(driver);
 	  
   }
   
   @Test(priority = 3)
-  public void Categories() throws Throwable {
+  public void SelectPackageBA() throws Throwable {
 	  
-	  ItemsIsDisplayed Items = new ItemsIsDisplayed();
-	  Items.IsItemsDisplayed(driver);
+	  SelectPackageBahreen BA = new SelectPackageBahreen();
+	  BA.selectPackageBh(driver);
 		
   }
   
-  @Test(priority = 4)
-  public void AddItems() throws Throwable {
 	  
-	  AddItem Item = new AddItem();
-	  Item.AddItem(driver);
-	  
-  }
-  
-  @Test(priority = 5)
-  public void RemoveItemsFromCart() throws Throwable {
-	  
-	  RemoveItem ItemRemove = new RemoveItem();
-	  ItemRemove.RemoveItem(driver);
-	  
-  }
-  
-  @Test(priority = 6)
-  public void CompleteCheckOut() throws Throwable {
-	  
-	  CompleteCheckOut checkout = new CompleteCheckOut();
-	  checkout.CheckOut(driver);
-	  
-  }
   
   @BeforeClass
   public void beforeClass() {
@@ -75,7 +53,7 @@ public	WebDriver driver;
 	  
 	  driver.manage().window().maximize();
 	  
-	  driver.get("https://www.demoblaze.com/");
+	  driver.get("https://www.stctv.com/sa-ar");
 	  //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
 

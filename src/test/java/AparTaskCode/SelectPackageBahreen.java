@@ -1,4 +1,4 @@
-package QPros_Blazedemo.QPros_Blazedemo;
+package AparTaskCode;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

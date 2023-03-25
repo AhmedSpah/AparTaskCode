@@ -6,40 +6,40 @@
     <groups>
     </groups>
     <test started-at="2023-01-22T16:38:55 EET" name="Default test" finished-at="2023-01-22T16:40:43 EET" duration-ms="107991">
-      <class name="QPros_Blazedemo.QPros_Blazedemo.Tests">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:38:55 EET" name="beforeClass" finished-at="2023-01-22T16:38:59 EET" duration-ms="4016" status="PASS">
+      <class name="AparTaskCode.Tests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:38:55 EET" name="beforeClass" finished-at="2023-01-22T16:38:59 EET" duration-ms="4016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Register()[pri:1, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:38:59 EET" name="Register" finished-at="2023-01-22T16:39:08 EET" duration-ms="9430" status="PASS">
+        <test-method signature="Register()[pri:1, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:38:59 EET" name="Register" finished-at="2023-01-22T16:39:08 EET" duration-ms="9430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method signature="Login()[pri:2, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:39:08 EET" name="Login" finished-at="2023-01-22T16:39:21 EET" duration-ms="12274" status="PASS">
+        <test-method signature="Login()[pri:2, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:39:08 EET" name="Login" finished-at="2023-01-22T16:39:21 EET" duration-ms="12274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Categories()[pri:3, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:39:21 EET" name="Categories" finished-at="2023-01-22T16:39:36 EET" duration-ms="15359" status="PASS">
+        <test-method signature="Categories()[pri:3, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:39:21 EET" name="Categories" finished-at="2023-01-22T16:39:36 EET" duration-ms="15359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Categories -->
-        <test-method signature="AddItems()[pri:4, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:39:36 EET" name="AddItems" finished-at="2023-01-22T16:39:49 EET" duration-ms="12847" status="PASS">
+        <test-method signature="AddItems()[pri:4, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:39:36 EET" name="AddItems" finished-at="2023-01-22T16:39:49 EET" duration-ms="12847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddItems -->
-        <test-method signature="RemoveItemsFromCart()[pri:5, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:39:49 EET" name="RemoveItemsFromCart" finished-at="2023-01-22T16:40:02 EET" duration-ms="13177" status="PASS">
+        <test-method signature="RemoveItemsFromCart()[pri:5, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:39:49 EET" name="RemoveItemsFromCart" finished-at="2023-01-22T16:40:02 EET" duration-ms="13177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveItemsFromCart -->
-        <test-method signature="CompleteCheckOut()[pri:6, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:40:02 EET" name="CompleteCheckOut" finished-at="2023-01-22T16:40:43 EET" duration-ms="40828" status="PASS">
+        <test-method signature="CompleteCheckOut()[pri:6, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:40:02 EET" name="CompleteCheckOut" finished-at="2023-01-22T16:40:43 EET" duration-ms="40828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompleteCheckOut -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:QPros_Blazedemo.QPros_Blazedemo.Tests@485966cc]" started-at="2023-01-22T16:40:43 EET" name="afterClass" finished-at="2023-01-22T16:40:43 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:AparTaskCode.Tests@485966cc]" started-at="2023-01-22T16:40:43 EET" name="afterClass" finished-at="2023-01-22T16:40:43 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- QPros_Blazedemo.QPros_Blazedemo.Tests -->
+      </class> <!-- AparTaskCode.Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

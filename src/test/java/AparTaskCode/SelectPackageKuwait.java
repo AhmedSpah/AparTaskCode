@@ -1,4 +1,4 @@
-package QPros_Blazedemo.QPros_Blazedemo;
+package AparTaskCode;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +23,7 @@ public class SelectPackageKuwait extends Tests {
 			Thread.sleep(3000);
 			WebElement next = driver.findElement(By.id("btnChoosePaymentMethod"));
 			next.click();
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 			WebElement Email =  driver.findElement(By.id("email-mobile"));
 			Email.sendKeys("ahmed.mahmoud332013@gmail.com");
 			Thread.sleep(3000);

@@ -1,4 +1,4 @@
-package QPros_Blazedemo.QPros_Blazedemo;
+package AparTaskCode;
 
 import org.testng.annotations.Test;
 
@@ -9,9 +9,7 @@ import org.testng.annotations.BeforeClass;
 import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
@@ -20,7 +18,7 @@ public class Tests {
 public	WebDriver driver;
 	
   @Test(priority = 1)
-  public void SelectPackageKSA() {
+  public void SelectPackageKSA() throws Throwable {
 	  
 	  SelectPackageKSA KSA = new SelectPackageKSA();
 	  KSA.selectPackageKsa(driver);
@@ -28,7 +26,7 @@ public	WebDriver driver;
   }
   
   @Test(priority = 2)
-  public void SelectPackageKU() {
+  public void SelectPackageKU() throws Throwable {
 	  
 	  SelectPackageKuwait kuwait = new SelectPackageKuwait();
 	  kuwait.selectPackageKu(driver);

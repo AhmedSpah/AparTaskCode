@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="QPros_Blazedemo.QPros_Blazedemo.Tests">
+      <class name="AparTaskCode.Tests">
         <methods>
           <include name="Categories"/>
           <include name="RemoveItemsFromCart"/>
@@ -11,7 +11,7 @@
           <include name="CompleteCheckOut"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- QPros_Blazedemo.QPros_Blazedemo.Tests -->
+      </class> <!-- AparTaskCode.Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
